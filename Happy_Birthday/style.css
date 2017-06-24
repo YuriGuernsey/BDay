@@ -1,0 +1,54 @@
+.name{
+  font-style: italic;
+  font-weight: bold;
+  font-size: 300px;
+}
+
+img{
+  border-radius: 10px
+  max-width: 100%;
+  height: auto;
+  opacity: 0.75;
+}
+
+.center {
+  position: absolute;
+  top: 55%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 50px
+}
+
+.container{
+  position: relative;
+}
+
+.blur{
+  -webkit-filter: blur(4px);
+  filter: blur(4px);
+}
+
+@font-face {
+  font-family: LobsterTwo-BoldItalic;
+  src: url(LobsterTwo-BoldItalic.ttf);
+}
+
+div{
+  font-family: LobsterTwo-BoldItalic;
+  font-size: 50px;
+  display: block;
+}
+
+.Comments{
+  margin-left: 15%;
+  max-width: 100%;
+  height: auto;
+}
+body{
+    background-color: #eee;
+}
+
+.hb{
+  font-size: 120px;
+  color: #13b6ec;
+}
