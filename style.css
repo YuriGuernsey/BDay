@@ -48,9 +48,14 @@ body{
     background-color: #eee;
 }
 
+.clear{
+  clear: both;
+}
+
 .hb{
   font-size: 120px;
   color: #13b6ec;
+  float: left;
 }
 
 .fb-comments{
